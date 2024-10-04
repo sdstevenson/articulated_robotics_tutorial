@@ -147,6 +147,7 @@
         </xacro:inertial_sphere>
     </link>
 
+    <!-- Set friction coefficient to basically 0 (not 0 incase there is a divide by 0) -->
     <gazebo reference="caster_wheel">
         <material>Gazebo/Black</material>
         <mu1 value="0.001"/>
