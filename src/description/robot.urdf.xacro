@@ -3,7 +3,9 @@
 
     <xacro:include filename="robot_core.xacro" />
 
-    <!-- Plug in for gazebo control -->
+    <!-- File for gazebo control -->
     <xacro:include filename="gazebo_control.xacro" />
+    <!-- File for lidar control -->
+    <xacro:include filename="lidar.xacro" />
 
 </robot>
