@@ -39,6 +39,7 @@ def generate_launch_description():
                 )
             ]
         ),
+        launch_arguments={"world": os.path.join(get_package_share_directory("articubot_one"), "worlds", "obstacles.world")}.items(),
     )
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
